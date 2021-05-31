@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon  --experimental-json-modules --trace-warnings src/index",
-    "start": "node src/index"
+    "start": "node  --experimental-json-modules --trace-warnings src/index"
   },
   "keywords": [],
   "author": "",
