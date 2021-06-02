@@ -1,7 +1,11 @@
 import express from 'express';
 import morgan from 'morgan';
 import cors from 'cors';
-import { router } from './routes/routes.js'
+import { router } from './routes/routes.js';
+
+import { connection } from './db/mongoose.js';
+
+connection()
 
 
 const app = express();
